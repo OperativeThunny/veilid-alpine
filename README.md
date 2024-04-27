@@ -27,14 +27,14 @@ otherwise, make the docker container use Debian or something else that has an of
 ```
 
 # TODO:
-    - [ ]  pingas
-    - [ ]  pongas
-    - [ ]  build veilid with musl based linux (alpine satisfies this)
-    - [ ]  package veilid server with veilid cli into an APK
-    - [ ]  get apk published
-    - [ ]  set up automation to `git pull --all` and rebuild the apk with the latest veilid and republish the apk
-    - [ ]  create Earthly/Earthfile to make a veilid container that runs supervisorD to keep the veilid-server running and provide an option for a web interface if the administrator of the server that is running the container wishes.
-    - [ ]  set up cronjob with supervisorD inside the container to automatically pull the latest APK and install it so then the veilid network can be healthier
-    - [ ]  publish everything
-    - [ ]  ???
-    - [ ]  get money
+  - [ ]  pingas
+- [ ]  pongas
+- [ ]  build veilid with musl based linux (alpine satisfies this)
+- [ ]  package veilid server with veilid cli into an APK
+- [ ]  get apk published
+- [ ]  set up automation to `git pull --all` and rebuild the apk with the latest veilid and republish the apk
+- [ ]  create Earthly/Earthfile to make a veilid container that runs supervisorD to keep the veilid-server running and provide an option for a web interface if the administrator of the server that is running the container wishes.
+- [ ]  set up cronjob with supervisorD inside the container to automatically pull the latest APK and install it so then the veilid network can be healthier
+- [ ]  publish everything
+- [ ]  ???
+- [ ]  get money
